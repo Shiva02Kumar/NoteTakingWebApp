@@ -1,0 +1,101 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+#navbar {
+    margin: 0px;
+    display: flex;
+    list-style: none;
+    background-color: black;
+    font-size: 20px;
+    color: antiquewhite;
+    position: sticky;
+}
+
+.navitem {
+    margin: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#right {
+    position: absolute;
+    right: 40px;
+    top: 5px;
+}
+
+#search {
+    height: 20px;
+    background-color: antiquewhite;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#input {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 250px;
+    padding: 25px 100px;
+    border: 5px solid white;
+    border-radius: 30px;
+}
+
+#inNote {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 0px;
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#addbtn {
+    margin: 25px 0px;
+    height: 35px;
+    width: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 70px;
+}
+
+#allNotes {
+    display: flex;
+}
+
+.card {
+    width: 15rem;
+    border: 5px solid white;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.delbtn {
+    margin: 10px 0px;
+    height: 25px;
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
